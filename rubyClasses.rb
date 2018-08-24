@@ -1,24 +1,24 @@
-# class Calc
+class Calc
 
-#     def add(val1, val2)
-#        puts val1 + val2
-#     end
+    def add(val1, val2)
+       puts val1 + val2
+    end
 
-#     def sub(val1, val2)
-#         puts val1 - val2
-#     end
+    def sub(val1, val2)
+        puts val1 - val2
+    end
     
-#     def mult(val1, val2)
-#        puts val1 * val2
-#     end
+    def mult(val1, val2)
+       puts val1 * val2
+    end
 
-#     def div(val1, val2)
-#         puts val1 / val2
-#     end
+    def div(val1, val2)
+        puts val1 / val2
+    end
 
-# end
+end
 
-# puts "hello"
+
 
 
 # adding = Calc.new
@@ -51,17 +51,3 @@ class Elevator
 end
 
 # ride = Elevator.new 
-
-
-
-
-# class Vehicle 
-#     attr_accessor :name
-
-#     def initialize(name, numOfWheels, numOfSeats)
-#         @name = name
-#         @numOfWheels = numOfWheels
-#         @numOfSeats = numOfSeats
-#     end
-
-# end
